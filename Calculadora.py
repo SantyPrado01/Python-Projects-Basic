@@ -1,3 +1,4 @@
+#Primera Solucion
 opc = int(input("Calculadora Simple \n Opcion 1 --> Suma \n Opcion 2 --> Resta \n Opcion 3 --> Multiplicacion \n Opcion 4 -->Division \n Elige la opcion: "))
 
 if opc == 1 :
@@ -22,3 +23,11 @@ elif opc == 4 :
     print("El resultado de la division es ", resultado)
 else:
     print("La opcion seleccionada no es disponible.")
+
+    
+#Segunda Solucion    
+    
+ing_num = input("Ingresa la operacion a realizar: ")
+
+print('El Resultado es: ', eval(ing_num))
+    

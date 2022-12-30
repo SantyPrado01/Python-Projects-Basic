@@ -11,15 +11,14 @@ def popup():
     Messagebox.showinfo('About my', 'Link to my linkedin profile: https://www.linkedin.com/in/santiago-prado-a03631228/')
 
 
-
 root = Tk()
 root.config(bd=15)
 root.title('YouTube Dowload')
 
-""""walppaper = PhotoImage(file = 'Download_Youtube\YouTube.png',  )
+walppaper = PhotoImage(file = 'Download_Youtube\YouTube.png', width = 60, height = 40)
 image = Label(root, image=walppaper, bd=0)
 image.grid(row=0, column=0)
-"""
+
 
 menubar = Menu(root)
 root.config(menu=menubar)
