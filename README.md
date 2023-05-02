@@ -5,7 +5,7 @@
 ## Calculadora con interfaz gráfica
 Esta es una calculadora que he creado usando la biblioteca de interfaz gráfica de usuario (GUI) tkinter de Python. La calculadora incluye las funciones básicas de suma, resta, multiplicación y división, y tiene una interfaz gráfica fácil de usar.
 
-![Calculadora con interfaz gráfica](calculadora_gui.png)
+![Calculadora con interfaz gráfica](img/calculadora_gui.png)
 
 ## Calculadora sin interfaz gráfica
 Esta es una calculadora básica creada en Python sin una interfaz gráfica. La calculadora puede realizar operaciones básicas de suma, resta, multiplicación y división.
