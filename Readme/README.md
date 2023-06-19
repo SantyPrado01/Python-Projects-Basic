@@ -19,7 +19,15 @@ Esta es una aplicación simple de Python que cuenta el número de palabras en un
 ## Aplicación de números pares e impares
 Esta es una aplicación básica que le pide al usuario que ingrese un número y luego determina si ese número es par o impar.
 
-## Juego de descubrir el número
-Este es un juego en el que el jugador tiene que adivinar un número entre 1 y 100 en un número limitado de intentos. La aplicación proporciona pistas para ayudar al jugador a adivinar el número correcto.
+## Carrito de compras (Programación Orientada a Objetos)
+El proyecto del carrito de compras utiliza los principios de la POO para crear una aplicación más estructurada y modular. En lugar de utilizar únicamente funciones y listas, este proyecto utiliza clases y objetos para representar el carrito de compras y los productos.
+
+El carrito de compras implementa las siguientes funcionalidades:
+
+Agregar productos al carrito.
+Eliminar productos del carrito.
+Calcular el total de la compra.
+Mostrar el contenido del carrito y la información de cada producto.
+
 
 ¡Gracias por revisar mis proyectos de Python! Si tienes alguna pregunta o comentario, por favor no dudes en contactarme.
