@@ -55,6 +55,7 @@ class CarritoCompras:
         
         if len(self.productos) == 0:
             print('No hay productos en el carrito.')
+            print('=='*45)
             return(False)
         else:
             print('=='*45)
@@ -65,10 +66,9 @@ class CarritoCompras:
             for producto, cantidad in self.productos:
 
                 print(f'{cantidad} unidad(es) de {producto.nombre}')
-            print(f'Factura B Cliente: {nombre} Fecha: {date.today()}')    
             print(f'El monto total a pagar es: ${self.monto_total}')
             print('=='*45)
-            
+            print(f'Factura B Cliente: {nombre} Fecha: {date.today()}') 
             return(True)   
                 
 carrito = CarritoCompras()
@@ -113,9 +113,11 @@ def opcion_tres():
                 carrito_agregar()
             else:
                 print('Producto no encontrado')
+                print('=='*45)
                 
         except ValueError:
             print('No es código válido')
+            print('=='*45)
         else:
             break
       
@@ -130,9 +132,11 @@ def opcion_cuatro():
                 carrito.agregar_carrito(producto, unidades)
             else:
                 print('Producto no encontrado')
+                print('=='*45)
                 
         except ValueError:
             print('No es un código válido')
+            print('=='*45)
             
         else:
             break
@@ -153,6 +157,7 @@ def buscar_producto_dos(a):
         return(producto_encontrado)
     else:
         print('Producto no encontrado')
+        print('=='*45)
         return(False)
     
 def carrito_agregar():
@@ -199,13 +204,17 @@ def modificar_carrito():
                         carrito.modificar_cantidad_producto(producto, cantidad_nueva)
             
                         print(f'Producto {producto.nombre} modificado correctamente en el carrito.')
+                        print('=='*45)
                  
                     else:
                         print(f'No hay suficiente stock de {producto.nombre} para la cantidad deseada.')
+                        print('=='*45)
                 else:
                     print('Producto no encontrado')
+                    print('=='*45)
             else:
                 print('No se realizarán modificaciones en el carrito.')
+                print('=='*45)
         except ValueError:
             print('No ingresaste una opcion valida, intenta nuevamente')
         else:
