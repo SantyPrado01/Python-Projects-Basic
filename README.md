@@ -2,13 +2,22 @@
 
 ¡Bienvenido a mi repositorio de proyectos basicos de Python! Aquí se encuentran varios proyectos de Python que he creado, que incluyen:
 
-## Calculadora sin interfaz gráfica
-Esta es una calculadora básica creada en Python sin una interfaz gráfica. La calculadora puede realizar operaciones básicas de suma, resta, multiplicación y división.
+## Proyectos
 
-## Contador de palabras
-Esta es una aplicación simple de Python que cuenta el número de palabras en un archivo de texto. El archivo de texto se puede ingresar como un argumento en la línea de comandos.
+1. **Par-Impar**
+   - Determina si un número dado es par o impar.
+   - Proporciona una introducción a las declaraciones condicionales en Python.
 
-## Aplicación de números pares e impares
-Esta es una aplicación básica que le pide al usuario que ingrese un número y luego determina si ese número es par o impar.
+2. **Calculadora por Consola**
+   - Realiza operaciones matemáticas básicas en la consola.
+   - Practica el uso de operadores y entrada del usuario.
+
+3. **Contador de Palabras**
+   - Cuenta las palabras en un archivo de texto proporcionado.
+   - Introducción al manejo de archivos y manipulación de cadenas.
+
+## Contribuciones
+
+Si deseas contribuir a este repositorio con nuevos proyectos o mejoras, ¡serás bienvenido! 
 
 ¡Gracias por revisar mis proyectos de Python! Si tienes alguna pregunta o comentario, por favor no dudes en contactarme.
