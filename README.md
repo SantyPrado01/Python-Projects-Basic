@@ -1,4 +1,4 @@
-# Proyectos de Python
+# Proyectos Basicos de Python
 
 ¡Bienvenido a mi repositorio de proyectos basicos de Python! Aquí se encuentran varios proyectos de Python que he creado, que incluyen:
 
