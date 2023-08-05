@@ -2,8 +2,6 @@
 
 ¡Bienvenido a mi repositorio de proyectos basicos de Python! Aquí se encuentran varios proyectos de Python que he creado, que incluyen:
 
-## Proyectos
-
 1. **Par-Impar**
    - Determina si un número dado es par o impar.
    - Proporciona una introducción a las declaraciones condicionales en Python.
